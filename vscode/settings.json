@@ -1,0 +1,74 @@
+{
+  "latex-workshop.latex.autoBuild.run" : "never",
+  "files.autoGuessEncoding" : true,
+  "editor.inlineSuggest.enabled" : true,
+  "latex-workshop.hover.command.enabled" : false,
+  "latex-workshop.hover.citation.enabled" : false,
+  "docker.containers.sortBy" : "CreatedTime",
+  "terminal.integrated.inheritEnv" : false,
+  "keyboard.touchbar.enabled" : false,
+  "quarto.mathjax.theme" : "dark",
+  "python.defaultInterpreterPath" : "\/opt\/homebrew\/Caskroom\/miniforge\/base\/envs\/gofcoe\/bin\/python",
+  "latex-workshop.hover.preview.enabled" : false,
+  "git.confirmSync" : false,
+  "files.associations" : {
+    "*.miros": "commonlisp",
+    "*.mirolib": "commonlisp",
+    "*.qmp": "plaintext",
+    "*.tdda": "json"
+  },
+  "jupyter.widgetScriptSources" : [
+    "jsdelivr.com",
+    "unpkg.com"
+  ],
+  "git.autofetch" : true,
+  "python.linting.enabled" : false,
+  "files.autoSave": "afterDelay",
+  "editor.minimap.enabled" : false,
+  "editor.accessibilitySupport" : "off",
+  "explorer.confirmDelete" : false,
+  "git.path" : "\/usr\/bin\/git",
+  "latex-workshop.hover.preview.cursor.enabled": false,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "[plaintext]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wrappingIndent": "same",
+    "editor.wordWrapColumn": 80,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false
+  },
+  "[quarto]": {
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "other": "on",
+      "strings": "on"
+    },
+    "editor.quickSuggestionsDelay": 250,
+    "editor.snippetSuggestions": "none",
+    "editor.wordBasedSuggestions": false,
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.wordWrap": "bounded",
+    "editor.wrappingIndent": "same",
+    "editor.wordWrapColumn": 80
+  },
+  "editor.formatOnType": true,
+  "explorer.confirmDragAndDrop": false,
+  "python.terminal.executeInFileDir": true,
+  "editor.stickyScroll.enabled": true,
+  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.language.colorizedBracketPairs": [
+  
+  ],
+  "editor.accessibilityPageSize": 11,
+  "window.zoomLevel": 1,
+  "editor.rulers": [
+    79
+  ],
+  "explorer.autoReveal": false,
+  "debug.console.acceptSuggestionOnEnter": "on"
+}
