@@ -1,33 +1,34 @@
 {
-  "latex-workshop.latex.autoBuild.run" : "never",
-  "files.autoGuessEncoding" : true,
-  "editor.inlineSuggest.enabled" : true,
-  "latex-workshop.hover.command.enabled" : false,
-  "latex-workshop.hover.citation.enabled" : false,
-  "docker.containers.sortBy" : "CreatedTime",
-  "terminal.integrated.inheritEnv" : false,
-  "keyboard.touchbar.enabled" : false,
-  "quarto.mathjax.theme" : "dark",
-  "python.defaultInterpreterPath" : "\/opt\/homebrew\/Caskroom\/miniforge\/base\/envs\/gofcoe\/bin\/python",
-  "latex-workshop.hover.preview.enabled" : false,
-  "git.confirmSync" : false,
-  "files.associations" : {
+  "latex-workshop.latex.autoBuild.run": "never",
+  "files.autoGuessEncoding": true,
+  "editor.inlineSuggest.enabled": true,
+  "latex-workshop.hover.command.enabled": false,
+  "latex-workshop.hover.citation.enabled": false,
+  "docker.containers.sortBy": "CreatedTime",
+  "terminal.integrated.inheritEnv": false,
+  "keyboard.touchbar.enabled": false,
+  "quarto.mathjax.theme": "dark",
+  "python.defaultInterpreterPath": "\/opt\/homebrew\/Caskroom\/miniforge\/base\/envs\/gofcoe\/bin\/python",
+  "latex-workshop.hover.preview.enabled": false,
+  "git.confirmSync": false,
+  "files.associations": {
     "*.miros": "commonlisp",
     "*.mirolib": "commonlisp",
     "*.qmp": "plaintext",
-    "*.tdda": "json"
+    "*.tdda": "json",
+    "*.conf": "properties"
   },
-  "jupyter.widgetScriptSources" : [
+  "jupyter.widgetScriptSources": [
     "jsdelivr.com",
     "unpkg.com"
   ],
-  "git.autofetch" : true,
-  "python.linting.enabled" : false,
+  "git.autofetch": true,
+  "python.linting.enabled": false,
   "files.autoSave": "afterDelay",
-  "editor.minimap.enabled" : false,
-  "editor.accessibilitySupport" : "off",
-  "explorer.confirmDelete" : false,
-  "git.path" : "\/usr\/bin\/git",
+  "editor.minimap.enabled": false,
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDelete": false,
+  "git.path": "\/usr\/bin\/git",
   "latex-workshop.hover.preview.cursor.enabled": false,
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
@@ -61,14 +62,22 @@
   "editor.stickyScroll.enabled": true,
   "workbench.colorTheme": "GitHub Dark Dimmed",
   "workbench.iconTheme": "vscode-icons",
-  "editor.language.colorizedBracketPairs": [
-  
-  ],
+  "editor.language.colorizedBracketPairs": [],
   "editor.accessibilityPageSize": 11,
-  "window.zoomLevel": 1,
   "editor.rulers": [
     79
   ],
   "explorer.autoReveal": false,
-  "debug.console.acceptSuggestionOnEnter": "on"
+  "debug.console.acceptSuggestionOnEnter": "on",
+  "workbench.editor.enablePreview": false,
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": [
+    "--line-length=79",
+    "--experimental-string-processing",
+    "--skip-string-normalization=true"
+  ]
 }
