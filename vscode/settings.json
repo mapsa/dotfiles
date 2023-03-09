@@ -77,7 +77,7 @@
   "python.formatting.provider": "black",
   "python.formatting.blackArgs": [
     "--line-length=79",
-    "--experimental-string-processing",
-    "--skip-string-normalization=true"
+    "--skip-string-normalization",
+    "--experimental-string-processing"
   ]
 }
