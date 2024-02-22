@@ -1,35 +1,25 @@
 {
-  "latex-workshop.latex.autoBuild.run": "never",
+  "editor.autoIndent": "keep",
   "files.autoGuessEncoding": true,
   "editor.inlineSuggest.enabled": true,
-  "latex-workshop.hover.command.enabled": false,
-  "latex-workshop.hover.citation.enabled": false,
   "docker.containers.sortBy": "CreatedTime",
-  "terminal.integrated.inheritEnv": false,
+  "terminal.integrated.inheritEnv": true,
   "keyboard.touchbar.enabled": false,
-  "quarto.mathjax.theme": "dark",
-  "python.defaultInterpreterPath": "\/opt\/homebrew\/Caskroom\/miniforge\/base\/envs\/gofcoe\/bin\/python",
-  "latex-workshop.hover.preview.enabled": false,
   "git.confirmSync": false,
   "files.associations": {
     "*.miros": "commonlisp",
     "*.mirolib": "commonlisp",
     "*.qmp": "plaintext",
     "*.tdda": "json",
-    "*.conf": "properties"
+    "*.conf": "properties",
+    "*.qmd": "markdown"
   },
-  "jupyter.widgetScriptSources": [
-    "jsdelivr.com",
-    "unpkg.com"
-  ],
+  "jupyter.widgetScriptSources": ["jsdelivr.com", "unpkg.com"],
   "git.autofetch": true,
-  "python.linting.enabled": false,
   "files.autoSave": "afterDelay",
   "editor.minimap.enabled": false,
   "editor.accessibilitySupport": "off",
   "explorer.confirmDelete": false,
-  "git.path": "\/usr\/bin\/git",
-  "latex-workshop.hover.preview.cursor.enabled": false,
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
   },
@@ -48,7 +38,7 @@
     },
     "editor.quickSuggestionsDelay": 250,
     "editor.snippetSuggestions": "none",
-    "editor.wordBasedSuggestions": false,
+    "editor.wordBasedSuggestions": "off",
     "editor.suggestOnTriggerCharacters": true,
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "editor.unicodeHighlight.invisibleCharacters": false,
@@ -56,28 +46,80 @@
     "editor.wrappingIndent": "same",
     "editor.wordWrapColumn": 80
   },
-  "editor.formatOnType": true,
   "explorer.confirmDragAndDrop": false,
   "python.terminal.executeInFileDir": true,
-  "editor.stickyScroll.enabled": true,
-  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "workbench.colorTheme": "Ariake Dark",
   "workbench.iconTheme": "vscode-icons",
   "editor.language.colorizedBracketPairs": [],
-  "editor.accessibilityPageSize": 11,
-  "editor.rulers": [
-    79
-  ],
+  "editor.accessibilityPageSize": 12,
+  "editor.rulers": [72, 79],
   "explorer.autoReveal": false,
   "debug.console.acceptSuggestionOnEnter": "on",
-  "workbench.editor.enablePreview": false,
+  "editor.defaultFormatter": "ms-python.black-formatter",
   "editor.formatOnSave": true,
   "[python]": {
-    "editor.formatOnType": true
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
   },
-  "python.formatting.provider": "black",
-  "python.formatting.blackArgs": [
+  "jupyter.askForKernelRestart": false,
+  "jupyter.notebookFileRoot": "${fileDirname}",
+  "notebook.formatOnSave.enabled": true,
+  "notebook.output.scrolling": true,
+  "notebook.output.textLineLimit": 20,
+  "notebook.output.wordWrap": true,
+  "black-formatter.path": ["black"],
+  "black-formatter.args": [
     "--line-length=79",
     "--skip-string-normalization",
-    "--experimental-string-processing"
-  ]
+  ],
+  "black-formatter.showNotification": "always",
+  // "editor.wordWrapColumn": 79,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.statusBar.enabled": false,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
+    "python": true,
+    "jupyter": true,
+    "makefile": true,
+    "jsonc": true,
+    "commonlisp": true,
+    "shellscript": true,
+    "csv": true
+  },
+  "workbench.editor.enablePreview": false,
+  "extensions.ignoreRecommendations": true,
+  "jupyter.exportWithOutputEnabled": true,
+  "jupyter.pythonExportMethod": "nbconvert",
+  "terminal.external.linuxExec": "bash",
+  "terminal.integrated.shellIntegration.enabled": true,
+  "explorer.sortOrder": "modified",
+  "rewrap.wrappingColumn": 79,
+  "rewrap.autoWrap.enabled": true,
+  "editor.stickyScroll.enabled": true,
+  "markdown.editor.filePaste.enabled": false,
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "args": ["-l"]
+    }
+  },
+  "sourcery.codeLens": false,
+  "circleci.hostUrl": "",
+  "gitlens.views.commits.files.layout": "tree",
+  "[dockercompose]": {
+    "editor.autoIndent": "keep"
+  },
+  "gitlens.ai.experimental.provider": "openai",
+  "gitlens.ai.experimental.openai.model": "gpt-4-1106-preview",
+  "terminal.integrated.allowChords": false,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "githubPullRequests.fileListLayout": "tree",
+  "window.zoomLevel": 1,
+  "CodeGPT.apiKey": "CodeGPT Plus Beta",
+  "git.ignoreRebaseWarning": true,
+  "githubPullRequests.pullBranch": "never",
+  "jupyter.interactiveWindow.textEditor.executeSelection": true
 }
