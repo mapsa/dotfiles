@@ -73,7 +73,6 @@
     "--skip-string-normalization",
   ],
   "black-formatter.showNotification": "always",
-  // "editor.wordWrapColumn": 79,
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.statusBar.enabled": false,
   "github.copilot.enable": {
